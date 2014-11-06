@@ -1,0 +1,25 @@
+//==============================================================================
+//TAG,PARAMETER_NAME:PARAMETER_VALUE;
+//==============================================================================
+//
+//Optimization model class
+MODEL,model_class_name:CS_RepackUSFixedCAFixedMX_Option2;// Do not change
+//An argument type must be a generic type wrapper class name: Integer, Double, String, Boolean, Long; or None
+MODEL,model_class_constructor_arguments_types:None;// Do not change
+MODEL,model_class_constructor_arguments_values:None;// Do not change
+// Threshold for additional interference pop percentage 
+MODEL,nationwide_acceptable_interference_pct:0.5;
+// Database server and account information
+MODEL,database_name:db_ia;// The name of the database
+MODEL,database_user_name:db_ia_owner;// The database account's user name
+MODEL,database_password:changeme;// The password of the database account
+MODEL,database_ip_address:127.0.0.1;// The IP address of the database server
+MODEL,database_port:5432;// The database service port number
+// Database required table names
+DB_TABLE,tv_stations_tablename:tvsoftware_stations;
+DB_TABLE,lm_station_tablename:ia_lm_master;
+DB_TABLE,lmw_station_tablename:ia_lmw_master;
+DB_TABLE,lm_lmw_interference_tablename:ia_lm_lmw_interference_table;
+DB_TABLE,mx_interference_tablename:ia_mx_interference_table;
+DB_TABLE,tvstudy_interference_tablename:tvsoftware_pairwise_result_final;
+//
