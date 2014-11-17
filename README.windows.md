@@ -211,12 +211,11 @@ To replicate TV Stations onto specific channels using the FCC's _TVStudy_ softwa
 
 ### Configuration
 
-There are 2 models available:
+There is 1 model available:
 
 * `CS_RepackUSFixedCAFixedMX_Option2`
-* `CS_RepackUSRepackCAFixedMX_Option2`
 
-Edit the parameters as necessary in the files located in the `profiles` subfolder.
+Edit the parameters as necessary in the file located in the `profiles` subfolder.
 
 Configurable Parameters:
 * `MODEL` parameters
